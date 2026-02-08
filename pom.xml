@@ -123,7 +123,7 @@
         <sshd.tests.rerun.count>2</sshd.tests.rerun.count>
 
         <dependency.download.silent>true</dependency.download.silent>
-        <bnd.extraImports />
+        <bnd.extraImports/>
     </properties>
 
     <profiles>
@@ -329,7 +329,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <execute />
+                                                <execute/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -342,7 +342,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <execute />
+                                                <execute/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -355,7 +355,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore />
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -368,7 +368,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore />
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -381,7 +381,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <execute />
+                                                <execute/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -394,7 +394,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <execute />
+                                                <execute/>
                                             </action>
                                         </pluginExecution>
                                     </pluginExecutions>
@@ -505,7 +505,7 @@
             <dependency>
                 <groupId>com.github.mwiede</groupId>
                 <artifactId>jsch</artifactId>
-                <version>2.27.4</version>
+                <version>2.27.7</version>
             </dependency>
 
             <dependency>
@@ -1071,7 +1071,7 @@
                                     <onlyWhenRelease>true</onlyWhenRelease>
                                     <message>No Snapshot Dependencies Allowed</message>
                                 </requireReleaseDeps>
-                                <dependencyConvergence />
+                                <dependencyConvergence/>
                             </rules>
                         </configuration>
                     </execution>
@@ -1296,7 +1296,7 @@
         <repository>
             <id>dummy</id>
             <name>Dummy to avoid accidental deploys</name>
-            <url />
+            <url/>
         </repository>
     </distributionManagement>
 
